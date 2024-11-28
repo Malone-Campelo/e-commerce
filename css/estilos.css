@@ -1,0 +1,58 @@
+.texto-menor {
+    font-size: 13px;
+}
+
+.divs-facilidades {
+    width: 325px;
+}
+
+.divs-facilidades i {
+    color: #DAFF01;
+}
+
+.div-novidades {
+    width: 325px;
+}
+
+.card-body a {
+    background: blueviolet;
+    border: none;
+}
+
+.card-body a:hover {
+    background-color: #8406f9;
+}
+
+.input-group button {
+    background: blueviolet;
+    border: none;
+}
+
+.input-group button:hover {
+    background-color: #8406f9;
+}
+
+@media(min-width: 768px) {
+
+    .div-novidades {
+        width: 696px;
+    }
+
+}
+
+.card-header {
+    color: white;
+}
+
+.carousel-item img {
+    width: 100%;
+    height: auto;
+}
+
+@media (min-width: 992px) {
+
+    .carousel-item img {
+        height: 50vh;
+        object-fit: cover;
+    }
+}
